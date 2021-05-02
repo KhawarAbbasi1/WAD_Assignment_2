@@ -1,0 +1,96 @@
+body{
+    background-color: seagreen;
+    background-image: url("bg5.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+    padding-top: 40px;
+    position: static;
+    width: 100%;
+}
+div a.h{
+    float: right; 
+    border: 1px solid grey;
+    font-family: sans-serif;
+    background-color: rgb(139, 0, 69);
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+a.h:hover{
+    background-color: lightpink;
+    color: peru;
+    cursor: pointer;
+}
+i.hadees{
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+p.hadees{
+    padding-left: 300px;
+
+}
+div+p{
+    font-style: italic;
+    text-decoration: underline;
+}
+div~p.h4{
+    color: black;
+}
+p.h1{
+    text-indent: 670px;
+}
+p.h2{
+    text-indent: 500px;
+}
+p.h3{
+    text-indent: 514px;
+}
+p.h4{
+    text-indent: 660px;
+}
+img.logo{
+    padding-left: 20px;
+    color: white;
+}
+p.logo{
+    padding-left: 15px;
+    color: white;
+}
+
+footer{
+    background-color: #414e57;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkgray;
+
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+}
+.fifth_class{
+    padding-top: 5pc;
+    width: 800px;
+    color: olivedrab;
+    text-decoration: underline;
+}
+.attr{
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+.form{
+    float: right;
+    padding-top: 100px;
+    width: 500px
+}
+label{
+    font-size: 20px;
+    text-align: center;
+}

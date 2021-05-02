@@ -1,0 +1,97 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+}
+header{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-bottom: -41px;
+}
+nav{
+    border-right: 2px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    float: left;
+    width: 10%;
+    height: 500px;
+    padding: 20px;
+    color: white;
+    margin-right: 1px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 84%;
+    height: 500px;
+}
+article h1{
+    background-color: lightgrey;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    border: darkgray solid 2px;
+    padding: 10px;
+    width: 280px;
+}
+.yo{
+    float: left;
+    width: 300px;
+}
+
+.c1{
+    margin-left: 130px;
+    margin-top: 140px;
+}
+
+.c2{
+    margin-left: 505px;
+    margin-top: -195px;
+}
+
+.c3{
+    margin-left: 880px;
+    margin-top: -195px;
+}
+
+.c4{
+    margin-left: 130px;
+    margin-top: 130px;
+}
+
+.c5{
+    margin-left: 505px;
+    margin-top: -160px;
+}
+
+/* Submit Button */
+.submit{
+    background-color: royalblue;
+    font-size: 25px;
+    color: white;
+}
+.s1{
+    margin-top: 4pc;
+    margin-left: 10pc;
+}
+.s2{
+    float: left;
+    margin-top: -3.3pc;
+    margin-left: 17pc;
+}
+.s3{
+    float: left;
+    margin-top: -5.7pc;
+    margin-left: 26pc;
+}
+.s4{
+    float: left;
+    margin-top: -8pc;
+    margin-left: 33pc;
+}

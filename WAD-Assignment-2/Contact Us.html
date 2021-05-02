@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Al-Qur'an</title>
+        <link rel="icon" href="abbasi.png" w3-jumbo>
+        <style>
+            body{
+                background-color: seagreen;
+                background-image: url("bg5.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+                div{
+                    margin-left: 35%;
+                }
+            .form{
+                padding-top: 100px;
+                width: 500px
+                }
+            label, h2{
+                font-size: 20px;
+                color: tomato;
+            }
+            #submit{
+                background-color: lightblue;
+                border-color: limegreen;
+                border: solid 3px;
+                font-size: 30px;
+                color: tomato;
+            }
+            h1{
+                margin-bottom: 0%;
+                color: navy;
+                background-color: lightyellow;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+        <form class="form">
+            <fieldset style="border: 2px aqua solid;">
+                <legend><h2 style="font-size: 30px; background-color: pink;">Contact Us</h2></legend>
+                <h1>Your Contact Information:</h1><br>
+                <label for="email" >Email-Address</label><br><br>
+                <input type="email" required id="email" name="email" placeholder="Enter Email here"><br><br>
+                <label for="name">Name</label><br><br>
+                <input type="text" required id="name" name="name" placeholder="Enter Name here"><br><br>
+                <label for="city">City</label><br><br>
+                <input type="text" id="city" name="city" placeholder="Enter City Name here"><br><br>
+                <label for="phone">Telephone Number</label><br><br>
+            
+                <h1>Your Message:</h1><br>
+
+                <label for="Category">Category:</label><br>
+                <select required name="Category" id="Category">
+                    <option value="null">Please Select</Please></option>
+                    <option value="gf">General Feedback</option>
+                    <option value="wf">Website Feedback</option>
+                    <option value="lsf">Live Streaming Feedback</option>
+                    <option value="ir">Information Required</option>
+                    <option value="os">Other Suggestions</option>
+                </select>
+                <br><br>
+                <label for="subject">Subject</label><br><br>
+                <input type="text" required id="suject" name="subject" placeholder="Enter Your Subject here"><br><br>
+                <label for="message">Message Body</label><br><br>
+                <input type="text" required id="message" name="message"><br><br>
+            
+                <input type="submit" id="submit" value="Submit"><br><br>
+            </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
